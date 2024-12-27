@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig-sdk.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "outDir": "./dist/cjs/src",
+    "rootDir": "./src",
+    "skipLibCheck": true
+  }
+}
